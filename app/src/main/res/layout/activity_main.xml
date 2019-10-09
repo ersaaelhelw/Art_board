@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" app:srcCompat="@drawable/clouds"
+        android:id="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" app:srcCompat="@drawable/ancient"
+        android:id="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:text="23:12"
+        android:layout_width="232dp"
+        android:layout_height="129dp"
+        android:id="@+id/textView"
+        android:textSize="92dp"
+        android:textColor="#ffffff"
+        android:shadowColor="@color/shadow"
+        android:fontFamily="#2f2f2f"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="72dp" android:layout_marginStart="72dp"
+        android:layout_marginTop="97dp" app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="586dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:text="Mon , 7 Oct  2019"
+        android:layout_width="184dp"
+        android:layout_height="31dp"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:fontFamily="#2f2f2f"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="96dp" android:layout_marginRight="96dp"
+        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="95dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="563dp" app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="218dp" app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"/>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="694dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/carve"
+        android:src="@drawable/component"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
